@@ -1,18 +1,24 @@
 # vuenavigatormixin
 
+A mixin to see if the browser is online or not.
+uses this api https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/onLine
+Supports Vue ^2.4.
+
+## Usage
+### With Object api
+```javascript
+import WithNavigator from 'vue-navigator-mixin';
+
+export default {
+	...
+	mixins: [WithNavigator],
+	...
+};
+```
+
 ## Project setup
 ```
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Run your unit tests
@@ -24,6 +30,3 @@ npm run test:unit
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
