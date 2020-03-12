@@ -1,4 +1,4 @@
-# vuenavigatormixin
+# vue-navigator-mixin
 
 A mixin to see if the browser is online or not.
 
