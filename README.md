@@ -1,7 +1,9 @@
 # vuenavigatormixin
 
 A mixin to see if the browser is online or not.
+
 uses this api https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/onLine
+
 Supports Vue ^2.4.
 
 ## Usage
